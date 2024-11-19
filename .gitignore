@@ -1,0 +1,49 @@
+# CMake build files
+/build/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build.ninja
+rules.ninja
+compile_commands.json
+
+# Conan generated files
+conanbuildinfo.txt
+conaninfo.txt
+graph_info.json
+conan.lock
+conan_toolchain.cmake
+CMakeUserPresets.json
+
+# Compiled object files, libraries, and executables
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+
+# Visual Studio files (if using Visual Studio occasionally)
+*.sln
+*.vcxproj*
+*.ninja
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# IDE and editor files
+.vscode/
+.idea/
+*.DS_Store
+
+# System-specific files
+Thumbs.db
+.DS_Store
+
+.clangd
+.cache/
